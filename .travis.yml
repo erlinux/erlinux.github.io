@@ -16,17 +16,20 @@ notifications: #启用通知
     on_failure: always #部署失败时，同上
 
 # S: Build Lifecycle
+before_install:
+    - npm install -g hexo
+
 install:
   - npm install  #安装依赖
 
 before_script:
   - export TZ='Asia/Shanghai' #设置时区
-  - npm install -g hexo  #全局安装HEXO
 # - npm install -g gulp  #全局安装Gulp
   - chmod +x _travis.sh  #授权脚本执行权限
 
 script:
-  - hexo clean && hexo g #清除缓存并生成静态文件
+  - hexo clean
+  - hexo generate #清除缓存并生成静态文件
 # - gulp #执行gulp任务
 
 after_success: #执行成功时(以后扩展功能使用)
