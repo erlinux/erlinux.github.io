@@ -21,12 +21,12 @@ install:
 
 before_script:
   - export TZ='Asia/Shanghai' #设置时区
-  - npm install -g gulp  #全局安装Gulp
+# - npm install -g gulp  #全局安装Gulp
   - chmod +x _travis.sh  #授权脚本执行权限
 
 script:
   - hexo clean && hexo g #清除缓存并生成静态文件
-  - gulp #执行gulp任务
+# - gulp #执行gulp任务
 
 after_success: #执行成功时(以后扩展功能使用)
 
