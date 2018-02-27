@@ -21,6 +21,7 @@ install:
 
 before_script:
   - export TZ='Asia/Shanghai' #设置时区
+  - npm install -g hexo  #全局安装HEXO
 # - npm install -g gulp  #全局安装Gulp
   - chmod +x _travis.sh  #授权脚本执行权限
 
