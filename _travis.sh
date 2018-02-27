@@ -49,6 +49,7 @@ EOF
   git config user.email "jiwenkangatech@foxmail.com"
   git add .
   git commit -m "Build by Travis CI"
+  git push origin master
   git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 }
 
