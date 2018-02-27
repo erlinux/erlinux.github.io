@@ -12,12 +12,12 @@ notifications: #启用通知
   email:
     recipients:
       - jiwenkangatech@foxmail.com #接收构建消息的邮件 不需要可设置为false
-    on_success: always #部署成功时，可设置alway never change
+    on_success: change #部署成功时，可设置alway never change
     on_failure: always #部署失败时，同上
 
 # S: Build Lifecycle
 before_install:
-    - npm install -g hexo
+   - npm install -g hexo
 
 install:
   - npm install  #安装依赖
@@ -25,7 +25,6 @@ install:
 before_script:
   - export TZ='Asia/Shanghai' #设置时区
 # - npm install -g gulp  #全局安装Gulp
-  - chmod +x _travis.sh  #授权脚本执行权限
 
 script:
   - hexo clean
@@ -35,7 +34,8 @@ script:
 after_success: #执行成功时(以后扩展功能使用)
 
 after_script:
-  - ./_travis.sh #执行部署脚本
+  - chmod +x _travis.sh  #授权执行权限
+  - ./_travis.sh         #执行部署脚本
 # E: Build LifeCycle
 
 branches:
