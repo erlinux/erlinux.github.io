@@ -1,1 +1,2 @@
-![[https://travis-ci.org/erlinux/erlinux.github.io.svg?branch=master][Project Status ]](https://travis-ci.org/erlinux/erlinux.github.io.svg?branch=master)
+# erlinux.github.io
+ITer奋斗点滴（IT兄弟盟）
