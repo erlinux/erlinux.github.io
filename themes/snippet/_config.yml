@@ -60,12 +60,13 @@ arch_config:
 ## 友链设置{@链接名称：链接地址{@links:[,,,]}}
 links:
     - 主题作者: http://www.shenliyang.com
+    - 个人博客: https://www.cnblogs.com/itxdm
     
 
 # 主题自定义个性化配置
 
 ## 网站宣传语{@branding：网站宣传语(不设置显示本地图片)}
-branding: 从未如此简单有趣
+branding: 
 
 ## 设置banner背景图片
 banner:
@@ -76,8 +77,8 @@ banner:
   
 ## 自定义随机图片
 defaultImgs:
-  - http://www.example.jpg //远程图片链接示例
-  - /img/default-1.jpg //本地图片链接示例
+  - http://i8.mifile.cn/a1/pms_1503909300.25797209!560x560.png //远程图片链接示例
+  - /img/mi.jpg //本地图片链接示例
 
 ### 文章摘要{@摘要显示优先级：自定义摘要 > 自动截取摘要 }
 ### 自定义摘要范围{@<!--more-->:截取more之前的内容为摘要}
@@ -116,7 +117,7 @@ gitment:
   
 ### 来必力(默认选项)
 livere: 
-  enable: true
+  enable: false
   livere_uid: 
 
 ### 友言评论(服务不稳定，经常无法加载)

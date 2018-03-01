@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: IT兄弟盟
+subtitle: ITer奋斗点滴
+description: IT兄弟盟,总站。
+author: Weston Peter
+language: zh-CN
+timezone: Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://itxdm.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
