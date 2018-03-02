@@ -39,6 +39,7 @@ jsonContent:
 ## notification config --网站公告设置,支持 html 和 纯文本
 notification: |- 
             <p>Here can fill with HTML codes</p>
+            <script type="text/javascript" src="//js.users.51.la/19197548.js"></script>
 
 ## 社交设置{@name:社交工具名字，@icon:社交工具图标，@href:设置工具链接} [参考图标](http://fontawesome.io/icons/)
 social:
