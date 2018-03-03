@@ -44,7 +44,16 @@ notification: |-
 social:
  - name: Github
    icon: git
-   href: //github.com/github
+   href: //github.com/erlinux
+ - name: 邮箱
+   icon: envelope-o
+   href: mailto:jiwenkangatech@foxmail.com
+ - name: QQ群
+   icon: users
+   href: //shang.qq.com/wpa/qunwpa?idkey=cf6773c6100facdea3cc277e4a5dde77d3b92f6049b1cb4b5a60948c32e471da
+ - name: RSS
+   icon: feed
+   href: /atom.xml
    
 ## 文章分类设置{@cate_config:{@show_count:是否显示数字，@show_current: 是否高亮当前category}}
 cate_config:
@@ -59,8 +68,8 @@ arch_config:
 
 ## 友链设置{@链接名称：链接地址{@links:[,,,]}}
 links:
-    - 主题作者: http://www.shenliyang.com
     - 个人博客: https://www.cnblogs.com/itxdm
+    - 主题作者: http://www.shenliyang.com
     
 
 # 主题自定义个性化配置
